@@ -2,6 +2,7 @@
 
 Magical Arena is a text-based combat simulation game where two players battle in a magical arena. Each player has attributes such as health, strength, and attack power. The game progresses turn-by-turn, where players attack each other until one of them is defeated.
 
+
 ## Approach
 
 The Magical Arena project consists of two main classes: `Player` and `MagicalArena`.
