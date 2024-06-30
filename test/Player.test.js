@@ -24,15 +24,15 @@ describe("Player Class", () => {
   test("should return a number for attack power", () => {
     const attackPower = player.attackPower();
     expect(typeof attackPower).toBe("number");
-    expect(attackPower).toBeGreaterThanOrEqual(5); // Minimum value: 1 * 5
-    expect(attackPower).toBeLessThanOrEqual(30); // Maximum value: 6 * 5
+    expect(attackPower).toBeGreaterThanOrEqual(5);
+    expect(attackPower).toBeLessThanOrEqual(30);
   });
 
   test("should return a number for defense power", () => {
     const defencePower = player.defencePower();
     expect(typeof defencePower).toBe("number");
-    expect(defencePower).toBeGreaterThanOrEqual(10); // Minimum value: 1 * 10
-    expect(defencePower).toBeLessThanOrEqual(60); // Maximum value: 6 * 10
+    expect(defencePower).toBeGreaterThanOrEqual(10);
+    expect(defencePower).toBeLessThanOrEqual(60);
   });
 
   test("health should not go below zero", () => {
